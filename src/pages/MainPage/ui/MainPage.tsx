@@ -1,7 +1,7 @@
 import React, {FC} from "react"
 import {Link} from "react-router-dom"
 
-import {useTheme} from "../../theme/useTheme"
+import {useTheme} from "app/providers/ThemeProvider/lib/useTheme"
 
 const MainPage: FC = () => {
     const {toggleTheme} = useTheme()
@@ -10,8 +10,8 @@ const MainPage: FC = () => {
         <div>
             <button onClick={toggleTheme}>Toggle</button>
             <br/>
-            <Link to="/test">
-                MainPage
+            <Link to="/about">
+                About
             </Link>
         </div>
     )

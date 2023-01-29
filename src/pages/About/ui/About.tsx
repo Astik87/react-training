@@ -1,6 +1,6 @@
-import classes from './Test.module.scss'
+import classes from './About.module.scss'
 
-const Test = () => {
+const About = () => {
     return (
         <div className={classes.test}>
             Test
@@ -8,4 +8,4 @@ const Test = () => {
     )
 }
 
-export default Test
+export default About
